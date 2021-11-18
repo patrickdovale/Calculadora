@@ -1,4 +1,24 @@
-body{
-    background-color: #202124;
+.container-calulator{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 100vw;
+    height: 100vh;
+    background-color: #999999;
+    text-align: center;
+    color: rgb(126, 105, 245);
+}
+
+.calculator{
+    display: grid;
+    grid-template-columns: repeat(4,25%);
+    grid-template-rows: 1fr repeat(5, 48px);
+    height: 320px;
+    width: 235px;
+    border-radius: 8px;
+    overflow: hidden;
+    /* padding: 16px; */
+    /* background-color: #202124; */
     color: #b5b9be;
 }
